@@ -1,0 +1,33 @@
+import React from 'react'
+
+function Home() {
+  return (
+    <section className='content'>
+      <img src="./brady-profile.jpg" alt="" id='brady-photo'/>
+      <div className="header-container">
+        <h1 className="intro-text">Brady Bott</h1>
+        <h1 className="intro-text">Full-stack Engineer</h1>
+      </div>
+      <section className="text-container">
+        <p>I am a Student Web Developer of Dev Mountain in Lehi, UT. My stack includes:</p>
+        <div className="tech-container">
+          <ul>
+            <li>PostgresSQL</li>
+            <li>Express</li>
+            <li>React</li>
+            <li>NodeJS</li>
+          </ul>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Jest</li>
+            <li>Redux</li>
+          </ul>
+        </div>
+        <p>So what are you waiting for?? Click the menu and find out more!</p>
+      </section>
+    </section>
+  )
+}
+
+export default Home

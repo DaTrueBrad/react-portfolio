@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width:600px) {
+  html {
+  background: url('./outdoors.jpg') no-repeat 49% 50% fixed;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  p {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    margin: 5px 0px;
+  }
+
+  h2 {
+    margin: 0;
+    font-family: "Rock Salt";
+    color: #AF4319;
+  }
+
+  header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: #363020;
+    display: flex;
+    align-items: center;
+  }
+  header h2 {
+    position: absolute;
+    left: 4%;
+    z-index: 100;
+  }
+  header i {
+    position:inherit;
+    top: 2%;
+    left: 85%;
+    font-size: 48px;
+    color: #DBD3AD;
+    z-index: 100;
+  }
+
+  .nav-menu {
+    transition: all 0.5s ease;
+    background-color: #363020;
+    padding-top: 80px;
+    position: fixed;
+    top: 0;
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #hidden {
+    position: fixed;
+    top: -50%;
+  }
+
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-family: "Rock Salt";
+    padding: 10px 30px;
+    margin-top: 0;
+    border-radius: 5px;
+  }
+
+  .content {
   display: flex;
   flex-direction: column;
+  width: 100%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 110px;
+  }
+
+  #brady-photo {
+    height: 250px;
+    border-radius: 50%;
+  }
+
+  .intro-text-container {
+    background-color: #AF4319;
+    width: 90vw;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  .intro-text {
+    font-family: 'Rock Salt';
+    text-align: center;
+    line-height: 30px;
+    color: #DBD3AD;
+    font-weight: 200;
+  }
+
+  .header-container {
+    background-color: #AF4319;
+    width: 90vw;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Rock Salt";
+    line-height: 30px;
+    color: #DBD3AD;
+  }
+
+  .text-container {
+    width: 90vw;
+    background-color: rgba(54,48,32,0.8);
+    margin-top: 15px;
+    padding: 10px;
+  }
+
+  .text-container h2 {
+    font-family: "Rock Salt";
+    font-size: 24px;
+    margin: 8px 0px;
+    color: #DBD3AD;
+    
+  }
+
+  .portfolio-image {
+    width: 100%;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  .button-container button {
+    background-color: #AF4319;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .tech-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tech-container ul {
+    width: 50%;
+  }
+  .tech-container ul li {
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
