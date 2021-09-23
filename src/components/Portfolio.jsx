@@ -2,9 +2,8 @@ import React from 'react'
 
 function Portfolio() {
   return (
-    <div>
+    <div id="parent-of-content">
       <section className="content">
-      <img src="./brady-profile.jpg" alt="" id='brady-photo'/>
       <div className="header-container">
         <h1>Portfolio</h1>
       </div>

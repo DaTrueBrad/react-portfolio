@@ -1,6 +1,6 @@
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:575.) {
   html {
-  background: url('./outdoors.jpg') no-repeat 49% 50% fixed;
+  background: url('./outdoorsLandscape.jpg') no-repeat 49% 50% fixed;
   }
 
   p {
@@ -76,7 +76,7 @@
   }
 
   #brady-photo {
-    height: 250px;
+    width: 75vw;
     border-radius: 50%;
   }
 
@@ -86,6 +86,12 @@
     border-radius: 5px;
     margin-top: 15px;
   }
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .intro-text {
     font-family: 'Rock Salt';
     text-align: center;
@@ -154,4 +160,322 @@
 
 }
 
+@media only screen and (min-width:600px) {
+  html {
+    background: url('./outdoorsLandscape.jpg') no-repeat 49% 50% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
+  p {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    margin: 5px 0px;
+  }
+
+  h2 {
+    margin: 0;
+    font-family: "Rock Salt";
+    color: #AF4319;
+  }
+
+  header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: #363020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header h2 {
+    padding-left: 30px;
+  }
+  header i {
+    visibility: hidden;
+  }
+
+  .nav-menu {
+    margin-right: 30px;
+  }
+
+  /* #hidden {
+    position: fixed;
+    top: -50%;
+  } */
+
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-family: "Rock Salt";
+    padding: 10px 30px;
+    margin-top: 0;
+    border-radius: 5px;
+  }
+
+  .content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 140px;
+  }
+
+  #brady-photo {
+    height: 20vh;
+    border-radius: 50%;
+  }
+
+  .intro-container {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro-text-container {
+    background-color: #AF4319;
+    width: 90vw;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 30px;
+  }
+  .intro-text {
+    font-family: 'Rock Salt';
+    text-align: left;
+    line-height: 30px;
+    color: #DBD3AD;
+    font-weight: 200;
+    font-size: 36px;
+  }
+
+  .header-container {
+    background-color: #AF4319;
+    width: 50vw;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Rock Salt";
+    line-height: 10px;
+    color: #DBD3AD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text-container {
+    width: 90vw;
+    background-color: rgba(54,48,32,0.8);
+    margin-top: 15px;
+    padding: 10px;
+  }
+
+  .text-container h2 {
+    font-family: "Rock Salt";
+    font-size: 24px;
+    margin: 8px 0px;
+    color: #DBD3AD;
+    
+  }
+
+  .portfolio-image {
+    width: 100%;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  .button-container button {
+    background-color: #AF4319;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .tech-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tech-container ul {
+    width: 50%;
+  }
+  .tech-container ul li {
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  html {
+    background: url('./outdoorsLandscape.jpg') no-repeat 49% 50% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  p {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    margin: 5px 0px;
+  }
+
+  h2 {
+    margin: 0;
+    font-family: "Rock Salt";
+    color: #AF4319;
+  }
+
+  header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: #363020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header h2 {
+    padding-left: 30px;
+  }
+  header i {
+    visibility: hidden;
+  }
+
+  .nav-menu {
+    margin-right: 30px;
+  }
+
+  /* #hidden {
+    position: fixed;
+    top: -50%;
+  } */
+
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-family: "Rock Salt";
+    padding: 10px 30px;
+    margin-top: 0;
+    border-radius: 5px;
+  }
+
+  .parent-of-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  align-items: center;
+  margin-top: 140px;
+  background-color: lawngreen;
+  }
+
+  #brady-photo {
+    height: 20vh;
+    border-radius: 50%;
+  }
+
+  .intro-container {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro-text-container {
+    background-color: #AF4319;
+    width: 90vw;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 30px;
+  }
+  .intro-text {
+    font-family: 'Rock Salt';
+    text-align: left;
+    line-height: 30px;
+    color: #DBD3AD;
+    font-weight: 200;
+    font-size: 36px;
+  }
+
+  .header-container {
+    background-color: #AF4319;
+    width: 50vw;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Rock Salt";
+    line-height: 10px;
+    color: #DBD3AD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text-container {
+    width: 90vw;
+    background-color: rgba(54,48,32,0.8);
+    margin-top: 15px;
+    padding: 10px;
+  }
+
+  .text-container h2 {
+    font-family: "Rock Salt";
+    font-size: 24px;
+    margin: 8px 0px;
+    color: #DBD3AD;
+    
+  }
+
+  .portfolio-image {
+    width: 100%;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  .button-container button {
+    background-color: #AF4319;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .tech-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tech-container ul {
+    width: 50%;
+  }
+  .tech-container ul li {
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+}

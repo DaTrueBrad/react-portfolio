@@ -2,8 +2,8 @@ import React from 'react'
 
 function About() {
   return (
-    <section className="content">
-      <img src="./brady-profile.jpg" alt="" id='brady-photo'/>
+    <div id="parent-of-content">
+      <section className="content">
       <div className="header-container">
         <h1>About Me</h1>
       </div>
@@ -12,6 +12,8 @@ function About() {
         <p>More info about me, I love to weightlift and workout and hike and sleep and eat.</p>
       </section>
     </section>
+    </div>
+    
     
   )
 }

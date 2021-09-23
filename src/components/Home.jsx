@@ -2,12 +2,17 @@ import React from 'react'
 
 function Home() {
   return (
-    <section className='content'>
-      <img src="./brady-profile.jpg" alt="" id='brady-photo'/>
+    <div id="parent-of-content">
+      <section className='content'>
+      <div className="intro-container">
+        <img src="./brady-profile.jpg" alt="" id='brady-photo'/>
       <div className="header-container">
+        {/* <h1 className="hello-text">Welcome! I'm</h1> */}
         <h1 className="intro-text">Brady Bott</h1>
         <h1 className="intro-text">Full-stack Engineer</h1>
       </div>
+      </div>
+      
       <section className="text-container">
         <p>I am a Student Web Developer of Dev Mountain in Lehi, UT. My stack includes:</p>
         <div className="tech-container">
@@ -27,6 +32,8 @@ function Home() {
         <p>So what are you waiting for?? Click the menu and find out more!</p>
       </section>
     </section>
+    </div>
+    
   )
 }
 
